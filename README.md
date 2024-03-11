@@ -13,11 +13,44 @@ Current build status
 ====================
 
 
-<table><tr><td>All platforms:</td>
+<table>
+    
+  <tr>
+    <td>Azure</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21822&branchName=main">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/eval_type_backport-feedstock?branchName=main">
-      </a>
+      <details>
+        <summary>
+          <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21822&branchName=main">
+            <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/eval_type_backport-feedstock?branchName=main">
+          </a>
+        </summary>
+        <table>
+          <thead><tr><th>Variant</th><th>Status</th></tr></thead>
+          <tbody><tr>
+              <td>linux_64</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21822&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/eval_type_backport-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21822&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/eval_type_backport-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21822&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/eval_type_backport-feedstock?branchName=main&jobName=win&configuration=win%20win_64_" alt="variant">
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </details>
     </td>
   </tr>
 </table>
@@ -28,6 +61,7 @@ Current release info
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-eval--type--backport-green.svg)](https://anaconda.org/conda-forge/eval-type-backport) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/eval-type-backport.svg)](https://anaconda.org/conda-forge/eval-type-backport) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/eval-type-backport.svg)](https://anaconda.org/conda-forge/eval-type-backport) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/eval-type-backport.svg)](https://anaconda.org/conda-forge/eval-type-backport) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-eval_type_backport-green.svg)](https://anaconda.org/conda-forge/eval_type_backport) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/eval_type_backport.svg)](https://anaconda.org/conda-forge/eval_type_backport) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/eval_type_backport.svg)](https://anaconda.org/conda-forge/eval_type_backport) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/eval_type_backport.svg)](https://anaconda.org/conda-forge/eval_type_backport) |
 
 Installing eval-type-backport
 =============================
@@ -39,16 +73,16 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `eval-type-backport` can be installed with `conda`:
+Once the `conda-forge` channel has been enabled, `eval-type-backport, eval_type_backport` can be installed with `conda`:
 
 ```
-conda install eval-type-backport
+conda install eval-type-backport eval_type_backport
 ```
 
 or with `mamba`:
 
 ```
-mamba install eval-type-backport
+mamba install eval-type-backport eval_type_backport
 ```
 
 It is possible to list all of the versions of `eval-type-backport` available on your platform with `conda`:
