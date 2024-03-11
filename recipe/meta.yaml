@@ -43,7 +43,7 @@ outputs:
       host:
         - python >=3.7
       run:
-        - {{ pin_subpackage("importlib_resources", max_pin="x.x.x") }}
+        - {{ pin_subpackage("eval_type_backport", max_pin="x.x.x") }}
         - python >=3.8
     test:
       requires:
