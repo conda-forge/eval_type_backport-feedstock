@@ -1,5 +1,5 @@
 {% set name = "eval_type_backport" %}
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/eval_type_backport-{{ version }}.tar.gz
-  sha256: 1638210401e184ff17f877e9a2fa076b60b5838790f4532a21761cc2be67aea1
+  sha256: 57e993f7b5b69d271e37482e62f74e76a0276c82490cf8e4f0dffeb6b332d5ed
 
 build:
   noarch: python
